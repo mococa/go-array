@@ -6,7 +6,9 @@ As many people know, golang lacks some slice methods compared to JavaScript or D
 
 ### Installation
 
+```bash
 go get github.com/mococa/
+```
 
 ### Usage
 
