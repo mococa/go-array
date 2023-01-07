@@ -4,6 +4,10 @@
 
 As many people know, golang lacks some slice methods compared to JavaScript or Dart, for example. So coming from these languages can be a little tricky and sometimes frustating because you'll write the same code many times. And the goal of this library is to mock the way JavaScript does things, using Generic types introducted on Go v1.18
 
+### Installation
+
+go get github.com/mococa/
+
 ### Usage
 
 ```go
