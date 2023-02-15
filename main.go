@@ -133,3 +133,12 @@ func (arr *GoArray[T]) Map(fn func(item T) any) []any {
 	return arr_copy
 
 }
+
+/*
+Iterates each item in array, not returning a value
+*/
+func (arr *GoArray[T]) Each(fn func(item T)) {
+	for _, e := range arr.data {
+		fn(e)
+	}
+}
