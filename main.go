@@ -142,3 +142,10 @@ func (arr *GoArray[T]) Each(fn func(item T)) {
 		fn(e)
 	}
 }
+
+/*
+Returns the slice version of the array
+*/
+func (arr *GoArray[T]) ToSlice() []T {
+	return arr.data
+}
